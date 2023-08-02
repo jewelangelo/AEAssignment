@@ -1,4 +1,4 @@
-from connect.data_lake import connect_data_lake
+from utils.aws.data_lake import connect_data_lake
 import pandas as pd
 import os
 from config.config import user, password, host, database 
